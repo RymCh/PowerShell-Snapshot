@@ -1,18 +1,11 @@
 # ***************************************************************************************************************
 # Nom du script         : snapshot_datasource.ps1
-# Auteur                : Anonyme
+# Auteur                : Rim CHATTI
 # Date                  : 01/04/2025
 # Objet                 : Script de création et mise à jour d'un snapshot pour une source de données
 # Paramètres d'entrée   : Nom du serveur, chemin de la DataSource, base cible, nombre de tentatives, délai entre tentatives
 # Paramètres de sortie  : Aucun
 # ***************************************************************************************************************
-# /*Modifications par ordre anti-chronologique*/
-# ***************************************************************************************************************
-# Modifié par      :
-# Modifications    :
-# Date             :
-# ***************************************************************************************************************
- 
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $true)] [string]$ServerName, # Nom du serveur
